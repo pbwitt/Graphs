@@ -1,2 +1,2 @@
 # Graphs
-This repo stores all the graph databases I am working on. 
+This repo stores all the graph data visuliaztions I am working on. 
