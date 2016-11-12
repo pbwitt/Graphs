@@ -1,0 +1,1137 @@
+{
+  "links": [
+    {
+      "label": "0.000451671183379",
+      "source": "ccpestudentaccounts@georgetown.edu",
+      "target": "pw476@georgetown.edu",
+      "id": "5",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000903342366757",
+      "source": "hs855@georgetown.edu",
+      "target": "drive-shares-noreply@google.com",
+      "id": "39",
+      "attributes": {
+        "count": "2",
+        "norm": "0.00729927007299"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.0392953929539",
+      "source": "hs855@georgetown.edu",
+      "target": "pw476@georgetown.edu",
+      "id": "41",
+      "attributes": {
+        "count": "87",
+        "norm": "0.317518248175"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00135501355014",
+      "source": "rsb89@georgetown.edu",
+      "target": "pw476@georgetown.edu",
+      "id": "22",
+      "attributes": {
+        "count": "3",
+        "norm": "0.0109489051095"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00316169828365",
+      "source": "machine-learning@noreply.github.com",
+      "target": "notifications@github.com",
+      "id": "1",
+      "attributes": {
+        "count": "7",
+        "norm": "0.0255474452555"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00451671183379",
+      "source": "noreply@google.com",
+      "target": "pw476@georgetown.edu",
+      "id": "25",
+      "attributes": {
+        "count": "10",
+        "norm": "0.036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.0140018066847",
+      "source": "pcgeller@gmail.com",
+      "target": "sheila.haines@gmail.com",
+      "id": "12",
+      "attributes": {
+        "count": "31",
+        "norm": "0.113138686131"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00361336946703",
+      "source": "nicole.donnelly@gmail.com",
+      "target": "pw476@georgetown.edu",
+      "id": "31",
+      "attributes": {
+        "count": "8",
+        "norm": "0.029197080292"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00180668473351",
+      "source": "mention@noreply.github.com",
+      "target": "pw476@georgetown.edu",
+      "id": "8",
+      "attributes": {
+        "count": "4",
+        "norm": "0.014598540146"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00225835591689",
+      "source": "drive-shares-noreply@google.com",
+      "target": "pw476@georgetown.edu",
+      "id": "58",
+      "attributes": {
+        "count": "5",
+        "norm": "0.0182481751825"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.123757904246",
+      "source": "arm307@georgetown.edu",
+      "target": "pw476@georgetown.edu",
+      "id": "55",
+      "attributes": {
+        "count": "274",
+        "norm": "1.0"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "anthony.o",
+      "target": "pw476@georgetown.edu",
+      "id": "61",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.0140018066847",
+      "source": "pcgeller@gmail.com",
+      "target": "catherine.janis@gmail.com",
+      "id": "15",
+      "attributes": {
+        "count": "31",
+        "norm": "0.113138686131"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.114272809395",
+      "source": "sheila.haines@gmail.com",
+      "target": "pw476@georgetown.edu",
+      "id": "45",
+      "attributes": {
+        "count": "253",
+        "norm": "0.923357664234"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00361336946703",
+      "source": "anthony.ojeda@georgetown.edu",
+      "target": "catherine.janis@gmail.com",
+      "id": "36",
+      "attributes": {
+        "count": "8",
+        "norm": "0.029197080292"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00135501355014",
+      "source": "pw476@georgetown.edu",
+      "target": "author@noreply.github.com",
+      "id": "63",
+      "attributes": {
+        "count": "3",
+        "norm": "0.0109489051095"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00135501355014",
+      "source": "info@datacommunitydc.org",
+      "target": "pw476@georgetown.edu",
+      "id": "26",
+      "attributes": {
+        "count": "3",
+        "norm": "0.0109489051095"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00180668473351",
+      "source": "sheila.haines@gmail.com",
+      "target": "drive-shares-noreply@google.com",
+      "id": "46",
+      "attributes": {
+        "count": "4",
+        "norm": "0.014598540146"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "georgetownscs@bkstr.com",
+      "target": "pw476@georgetown.edu",
+      "id": "10",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00225835591689",
+      "source": "noreply@github.com",
+      "target": "pw476@georgetown.edu",
+      "id": "53",
+      "attributes": {
+        "count": "5",
+        "norm": "0.0182481751825"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.0383920505872",
+      "source": "hs855@georgetown.edu",
+      "target": "arm307@georgetown.edu",
+      "id": "42",
+      "attributes": {
+        "count": "85",
+        "norm": "0.310218978102"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "edu-noreply@github.com",
+      "target": "pw476@georgetown.edu",
+      "id": "51",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.116531165312",
+      "source": "pw476@georgetown.edu",
+      "target": "catherine.janis@gmail.com",
+      "id": "64",
+      "attributes": {
+        "count": "258",
+        "norm": "0.941605839416"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00180668473351",
+      "source": "mention@noreply.github.com",
+      "target": "notifications@github.com",
+      "id": "9",
+      "attributes": {
+        "count": "4",
+        "norm": "0.014598540146"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00135501355014",
+      "source": "blog@districtdatalabs.com",
+      "target": "pw476@georgetown.edu",
+      "id": "11",
+      "attributes": {
+        "count": "3",
+        "norm": "0.0109489051095"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00180668473351",
+      "source": "drive-shares-noreply@google.com",
+      "target": "catherine.janis@gmail.com",
+      "id": "59",
+      "attributes": {
+        "count": "4",
+        "norm": "0.014598540146"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "ccpe@georgetown.edu",
+      "target": "pw476@georgetown.edu",
+      "id": "24",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.0392953929539",
+      "source": "hs855@georgetown.edu",
+      "target": "catherine.janis@gmail.com",
+      "id": "43",
+      "attributes": {
+        "count": "87",
+        "norm": "0.317518248175"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.0388437217706",
+      "source": "hs855@georgetown.edu",
+      "target": "sheila.haines@gmail.com",
+      "id": "40",
+      "attributes": {
+        "count": "86",
+        "norm": "0.313868613139"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.0140018066847",
+      "source": "pcgeller@gmail.com",
+      "target": "arm307@georgetown.edu",
+      "id": "14",
+      "attributes": {
+        "count": "31",
+        "norm": "0.113138686131"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.0140018066847",
+      "source": "pcgeller@gmail.com",
+      "target": "pw476@georgetown.edu",
+      "id": "13",
+      "attributes": {
+        "count": "31",
+        "norm": "0.113138686131"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00135501355014",
+      "source": "machine-learning@noreply.github.com",
+      "target": "author@noreply.github.com",
+      "id": "2",
+      "attributes": {
+        "count": "3",
+        "norm": "0.0109489051095"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00135501355014",
+      "source": "info@lynda.com",
+      "target": "pw476@georgetown.edu",
+      "id": "57",
+      "attributes": {
+        "count": "3",
+        "norm": "0.0109489051095"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "arm307@georgetown.edu",
+      "target": "drive-shares-noreply@google.com",
+      "id": "54",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00271002710027",
+      "source": "scscommunications@georgetown.edu",
+      "target": "pw476@georgetown.edu",
+      "id": "19",
+      "attributes": {
+        "count": "6",
+        "norm": "0.021897810219"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00361336946703",
+      "source": "anthony.ojeda@georgetown.edu",
+      "target": "sheila.haines@gmail.com",
+      "id": "33",
+      "attributes": {
+        "count": "8",
+        "norm": "0.029197080292"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00135501355014",
+      "source": "notifications@github.com",
+      "target": "author@noreply.github.com",
+      "id": "49",
+      "attributes": {
+        "count": "3",
+        "norm": "0.0109489051095"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00271002710027",
+      "source": "armargolis@gmail.com",
+      "target": "sheila.haines@gmail.com",
+      "id": "27",
+      "attributes": {
+        "count": "6",
+        "norm": "0.021897810219"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00180668473351",
+      "source": "machine-learning@noreply.github.com",
+      "target": "mention@noreply.github.com",
+      "id": "0",
+      "attributes": {
+        "count": "4",
+        "norm": "0.014598540146"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00271002710027",
+      "source": "armargolis@gmail.com",
+      "target": "pw476@georgetown.edu",
+      "id": "28",
+      "attributes": {
+        "count": "6",
+        "norm": "0.021897810219"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.114272809395",
+      "source": "sheila.haines@gmail.com",
+      "target": "catherine.janis@gmail.com",
+      "id": "47",
+      "attributes": {
+        "count": "253",
+        "norm": "0.923357664234"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.112917795845",
+      "source": "arm307@georgetown.edu",
+      "target": "catherine.janis@gmail.com",
+      "id": "56",
+      "attributes": {
+        "count": "250",
+        "norm": "0.912408759124"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00496838301716",
+      "source": "anthony.ojeda@georgetown.edu",
+      "target": "pw476@georgetown.edu",
+      "id": "34",
+      "attributes": {
+        "count": "11",
+        "norm": "0.0401459854015"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00451671183379",
+      "source": "anthony.ojeda@georgetown.edu",
+      "target": "arm307@georgetown.edu",
+      "id": "35",
+      "attributes": {
+        "count": "10",
+        "norm": "0.036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00542005420054",
+      "source": "pbwitt@gmail.com",
+      "target": "pw476@georgetown.edu",
+      "id": "38",
+      "attributes": {
+        "count": "12",
+        "norm": "0.043795620438"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.112466124661",
+      "source": "sheila.haines@gmail.com",
+      "target": "arm307@georgetown.edu",
+      "id": "44",
+      "attributes": {
+        "count": "249",
+        "norm": "0.908759124088"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "ccpeprograms@georgetown.edu",
+      "target": "pw476@georgetown.edu",
+      "id": "48",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000903342366757",
+      "source": "kvb24@georgetown.edu",
+      "target": "pw476@georgetown.edu",
+      "id": "52",
+      "attributes": {
+        "count": "2",
+        "norm": "0.00729927007299"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00316169828365",
+      "source": "machine-learning@noreply.github.com",
+      "target": "pw476@georgetown.edu",
+      "id": "3",
+      "attributes": {
+        "count": "7",
+        "norm": "0.0255474452555"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "no-reply@accounts.google.com",
+      "target": "pw476@georgetown.edu",
+      "id": "16",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00271002710027",
+      "source": "armargolis@gmail.com",
+      "target": "catherine.janis@gmail.com",
+      "id": "30",
+      "attributes": {
+        "count": "6",
+        "norm": "0.021897810219"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00135501355014",
+      "source": "donotreply@developer.wmata.com",
+      "target": "pw476@georgetown.edu",
+      "id": "60",
+      "attributes": {
+        "count": "3",
+        "norm": "0.0109489051095"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "subscription@email.ft.com",
+      "target": "pw476@georgetown.edu",
+      "id": "62",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "4439044948@vzwpix.com",
+      "target": "pw476@georgetown.edu",
+      "id": "17",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "help@ft.com",
+      "target": "pw476@georgetown.edu",
+      "id": "23",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "ao539@georgetown.edu",
+      "target": "pw476@georgetown.edu",
+      "id": "6",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "ao539@georgetown.edu",
+      "target": "arm307@georgetown.edu",
+      "id": "7",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00271002710027",
+      "source": "armargolis@gmail.com",
+      "target": "arm307@georgetown.edu",
+      "id": "29",
+      "attributes": {
+        "count": "6",
+        "norm": "0.021897810219"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00316169828365",
+      "source": "notifications@github.com",
+      "target": "pw476@georgetown.edu",
+      "id": "50",
+      "attributes": {
+        "count": "7",
+        "norm": "0.0255474452555"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00135501355014",
+      "source": "mail-noreply@google.com",
+      "target": "pw476@georgetown.edu",
+      "id": "20",
+      "attributes": {
+        "count": "3",
+        "norm": "0.0109489051095"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "noreply-daa26fef@plus.google.com",
+      "target": "pw476@georgetown.edu",
+      "id": "37",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.00496838301716",
+      "source": "paul.witt@tsp.gov",
+      "target": "pw476@georgetown.edu",
+      "id": "18",
+      "attributes": {
+        "count": "11",
+        "norm": "0.0401459854015"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "feedback@slack.com",
+      "target": "pw476@georgetown.edu",
+      "id": "32",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000451671183379",
+      "source": "ccpestudentaccounts@georgetown.edu",
+      "target": "ccpeprograms@georgetown.edu",
+      "id": "4",
+      "attributes": {
+        "count": "1",
+        "norm": "0.0036496350365"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    },
+    {
+      "label": "0.000903342366757",
+      "source": "rsb89@georgetown.edu",
+      "target": "nicole.donnelly@gmail.com",
+      "id": "21",
+      "attributes": {
+        "count": "2",
+        "norm": "0.00729927007299"
+      },
+      "color": "rgb(0,0,0)",
+      "size": 1.0
+    }
+  ],
+  "nodes": 
+  [
+    {
+      "label": "drive-shares-noreply@google.com",
+      "x": -115.9046401977539,
+      "y": 19.127819061279297,
+      "id": "drive-shares-noreply@google.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "help@ft.com",
+      "x": 71.6617660522461,
+      "y": -48.3166389465332,
+      "id": "help@ft.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "mail-noreply@google.com",
+      "x": -328.6714782714844,
+      "y": 2.1020617485046387,
+      "id": "mail-noreply@google.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "sheila.haines@gmail.com",
+      "x": -287.0552978515625,
+      "y": -123.2157211303711,
+      "id": "sheila.haines@gmail.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "ao539@georgetown.edu",
+      "x": -356.4159240722656,
+      "y": 123.46695709228516,
+      "id": "ao539@georgetown.edu",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "no-reply@accounts.google.com",
+      "x": 330.2949523925781,
+      "y": 55.55710983276367,
+      "id": "no-reply@accounts.google.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "scscommunications@georgetown.edu",
+      "x": -253.91696166992188,
+      "y": 76.2897720336914,
+      "id": "scscommunications@georgetown.edu",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "anthony.o",
+      "x": -298.5274353027344,
+      "y": 375.0048522949219,
+      "id": "anthony.o",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "armargolis@gmail.com",
+      "x": -346.17999267578125,
+      "y": 157.78636169433594,
+      "id": "armargolis@gmail.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "feedback@slack.com",
+      "x": -386.900634765625,
+      "y": 107.0895767211914,
+      "id": "feedback@slack.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "noreply@github.com",
+      "x": 232.20309448242188,
+      "y": 42.83561325073242,
+      "id": "noreply@github.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "catherine.janis@gmail.com",
+      "x": 401.3782653808594,
+      "y": 277.8211975097656,
+      "id": "catherine.janis@gmail.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "noreply-daa26fef@plus.google.com",
+      "x": 384.4382019042969,
+      "y": -434.6119079589844,
+      "id": "noreply-daa26fef@plus.google.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "blog@districtdatalabs.com",
+      "x": 115.85420989990234,
+      "y": -451.4578552246094,
+      "id": "blog@districtdatalabs.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "mention@noreply.github.com",
+      "x": 152.13241577148438,
+      "y": -125.65001678466797,
+      "id": "mention@noreply.github.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "anthony.ojeda@georgetown.edu",
+      "x": -49.368534088134766,
+      "y": -65.89220428466797,
+      "id": "anthony.ojeda@georgetown.edu",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "hs855@georgetown.edu",
+      "x": -216.82949829101562,
+      "y": 4.084575176239014,
+      "id": "hs855@georgetown.edu",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "info@datacommunitydc.org",
+      "x": -274.2242126464844,
+      "y": -236.86732482910156,
+      "id": "info@datacommunitydc.org",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "paul.witt@tsp.gov",
+      "x": 124.9022445678711,
+      "y": 156.75572204589844,
+      "id": "paul.witt@tsp.gov",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "pw476@georgetown.edu",
+      "x": 242.95413208007812,
+      "y": -276.0569763183594,
+      "id": "pw476@georgetown.edu",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 30.0
+    },
+    {
+      "label": "4439044948@vzwpix.com",
+      "x": -184.08572387695312,
+      "y": 98.1933364868164,
+      "id": "4439044948@vzwpix.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "author@noreply.github.com",
+      "x": -245.72348022460938,
+      "y": 402.0640563964844,
+      "id": "author@noreply.github.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "ccpestudentaccounts@georgetown.edu",
+      "x": 245.03604125976562,
+      "y": 214.07859802246094,
+      "id": "ccpestudentaccounts@georgetown.edu",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "ccpeprograms@georgetown.edu",
+      "x": 48.24392318725586,
+      "y": -450.7399597167969,
+      "id": "ccpeprograms@georgetown.edu",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "notifications@github.com",
+      "x": 507.7094421386719,
+      "y": 382.1036682128906,
+      "id": "notifications@github.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "donotreply@developer.wmata.com",
+      "x": -284.4721984863281,
+      "y": -90.54265594482422,
+      "id": "donotreply@developer.wmata.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "pbwitt@gmail.com",
+      "x": 11.66109848022461,
+      "y": 161.1998748779297,
+      "id": "pbwitt@gmail.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "kvb24@georgetown.edu",
+      "x": 503.4510192871094,
+      "y": 109.90311431884766,
+      "id": "kvb24@georgetown.edu",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "nicole.donnelly@gmail.com",
+      "x": -121.6950454711914,
+      "y": 179.89573669433594,
+      "id": "nicole.donnelly@gmail.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "pcgeller@gmail.com",
+      "x": -15.95987319946289,
+      "y": -455.0778503417969,
+      "id": "pcgeller@gmail.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "machine-learning@noreply.github.com",
+      "x": 276.0162658691406,
+      "y": 17.442974090576172,
+      "id": "machine-learning@noreply.github.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "subscription@email.ft.com",
+      "x": 45.33401107788086,
+      "y": -47.68046951293945,
+      "id": "subscription@email.ft.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 100.0
+    },
+    {
+      "label": "edu-noreply@github.com",
+      "x": -448.8463439941406,
+      "y": -21.453815460205078,
+      "id": "edu-noreply@github.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "noreply@google.com",
+      "x": 0.6730002164840698,
+      "y": -147.2876739501953,
+      "id": "noreply@google.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "info@lynda.com",
+      "x": 444.5409851074219,
+      "y": 513.2509155273438,
+      "id": "info@lynda.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "georgetownscs@bkstr.com",
+      "x": 198.37002563476562,
+      "y": 440.9476623535156,
+      "id": "georgetownscs@bkstr.com",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "ccpe@georgetown.edu",
+      "x": -355.3284606933594,
+      "y": -286.9757385253906,
+      "id": "ccpe@georgetown.edu",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "arm307@georgetown.edu",
+      "x": 6.955410003662109,
+      "y": -204.9674530029297,
+      "id": "arm307@georgetown.edu",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    },
+    {
+      "label": "rsb89@georgetown.edu",
+      "x": 226.29531860351562,
+      "y": -450.2073974609375,
+      "id": "rsb89@georgetown.edu",
+      "attributes": { },
+      "color": "rgb(0,0,0)",
+      "size": 10.0
+    }
+  ]}

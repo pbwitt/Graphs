@@ -1,0 +1,362 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        .links line {
+            stroke: #000000;
+            stroke-opacity: 0.6;
+        }
+
+        .nodes circle {
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+    </style>
+    <style>
+        .link {
+            stroke: #ccc;
+        }
+
+        .node {
+            fill: #000;
+            stroke: #fff;
+            stroke-width: 1.5px;
+        }
+    </style>
+
+
+    <style>
+        h1 {
+            display: block;
+            font-size: 2em;
+            margin-top: 0.67em;
+            margin-bottom: 0.67em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;
+        }
+    </style>
+
+
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TMPH00036</title>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="menu-wrap">
+  <div class="menu">
+    <ul>
+      <li><a href="index.html" >home</a></li>
+      <li><a href="about.html">about</a></li>
+      <li><a href="Economic.html" class="active">Economics</a></li>
+      <li><a href="solutions.html">Solutions </a></li>
+      <li><a href="careers.html">Careers </a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</div>
+<!--------menu wrap ends--------->
+<div class="clearing"></div>
+<div class="header">
+  <div class="logo">
+    <h1>BUSINESS<span>NAME</span></h1>
+  </div>
+  <div class="social">
+    <ul>
+      <li><a href="#"><img src="images/aim.png" alt="aim" /></a></li>
+      <li><a href="#"><img src="images/facebook.png" alt="facebook" /></a></li>
+      <li><a href="#"><img src="images/twwtter.png" alt="tiwwter" /></a></li>
+      <li><a href="#"><img src="images/linkedin.png" alt="linkedin'" /></a></li>
+    </ul>
+  </div>
+</div>
+<!--------header wrap ends--------->
+<div class="banner">
+  <h1>Macenas Conte hendrit </h1>
+  <h2>lorem quis orcitor</h2>
+</div>
+<!--------banner end-------->
+    <div>
+    <svg width="960" height="600"></svg>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script>
+
+              // SVG element is above.  This will be called below.
+              var svg = d3.select("svg"),
+                  width = +svg.attr("width"),
+                  height = +svg.attr("height");
+              //Color variable that will be used to assined to nodes.
+              var color = d3.scaleOrdinal(d3.schemeCategory20);
+
+              //Sets force simulation layout. Creates the charge and spring like links.
+              var simulation = d3.forceSimulation()
+                  .force("link", d3.forceLink().id(function (d) { return d.id; }))
+                  .force("charge", d3.forceManyBody())
+                  .force("center", d3.forceCenter(width / 2, height / 2));
+
+              //Load data from JSON files.
+              d3.json("New.json", function (error, graph) {
+                  if (error) throw error;
+                  //Example of how to access data.
+                  function Pauls_function(graph) {
+                      console.log(graph)
+                  }
+                  Pauls_function(graph)
+
+
+                  var link = svg.append("g")
+                    .attr("class", "links")
+                    .selectAll("line")
+                    .data(graph.links)
+                    .enter().append("line")
+                    .attr("stroke-width", function (d) { return Math.sqrt(d.value); });
+
+
+                  x = 10
+                  //Instantiate node using chained methods.
+                  var node = svg.append("g")
+                     .attr("class", "nodes")
+                     .selectAll("circle")
+                     .data(graph.nodes)
+                     .enter().append("circle")
+
+                      //changes the circle radious.
+                     .attr("r", function (d) {
+                         if (d.id == '< 50') { return 10 }
+                         if (d.id == "50 - 100") { return 10 }
+                         if (d.id == "101-150") { return 10 }
+                         if (d.id == ">150") { return 10 }
+                         else { return 5 };
+                     })
+                       .attr("fill", function (d) { return color(d.group) })
+                       .call(d3.drag()
+                           .on("start", dragstarted)
+                           .on("drag", dragged)
+                           .on("end", dragended));
+
+                  node.append("title")
+                      .text(function (d) { return d.id; });
+
+                  simulation
+                      .nodes(graph.nodes)
+                      .on("tick", ticked);
+
+                  simulation.force("link")
+                      .links(graph.links);
+
+                  function ticked() {
+                      link
+                          .attr("x1", function (d) { return d.source.x; })
+                          .attr("y1", function (d) { return d.source.y; })
+                          .attr("x2", function (d) { return d.target.x; })
+                          .attr("y2", function (d) { return d.target.y; });
+
+                      node
+                          .attr("cx", function (d) { return d.x; })
+                          .attr("cy", function (d) { return d.y; });
+                  }
+              });
+
+              function dragstarted(d) {
+                  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+                  d.fx = d.x;
+                  d.fy = d.y;
+              }
+
+              function dragged(d) {
+                  d.fx = d3.event.x;
+                  d.fy = d3.event.y;
+              }
+
+              function dragended(d) {
+                  if (!d3.event.active) simulation.alphaTarget(0);
+                  d.fx = null;
+                  d.fy = null;
+              }
+
+    </script>
+    </div>
+
+
+
+
+<div class="page">
+  <div class="primary-col">
+    <div class="generic">
+      <div class="panel">
+        <div class="title">
+          <h1>Test</h1>
+          <h2>Lorem ipsum dolor sit amet consectetur adipiscing elit </h2>
+        </div>
+        
+        <div class="clearing"></div>
+       
+        <div class="clearing"></div>
+        <div>
+            <svg width="960" height="500"></svg>
+            <script src="https://d3js.org/d3.v4.min.js"></script>
+            <script>
+
+var svg = d3.select("svg"),
+    margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = +svg.attr("width") - margin.left - margin.right,
+    height = +svg.attr("height") - margin.top - margin.bottom;
+
+var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
+    y = d3.scaleLinear().rangeRound([height, 0]);
+
+var g = svg.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.tsv("data.tsv", function(d) {
+  d.frequency = +d.frequency;
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  x.domain(data.map(function(d) { return d.letter; }));
+  y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
+
+  g.append("g")
+      .attr("class", "axis axis--x")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+  g.append("g")
+      .attr("class", "axis axis--y")
+      .call(d3.axisLeft(y).ticks(10, "%"))
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", "0.71em")
+      .attr("text-anchor", "end")
+      .text("Frequency");
+
+  g.selectAll(".bar")
+    .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.letter); })
+      .attr("y", function(d) { return y(d.frequency); })
+      .attr("width", x.bandwidth())
+      .attr("height", function(d) { return height - y(d.frequency); });
+});
+
+            </script>
+
+
+        </div>
+        <div class="clearing"></div>
+      </div>
+    </div>
+  </div>
+  <!----primary end--->
+  <div class="side-bar">
+    <div class="search">
+      <div class="title">
+        <h1>SEARCH HERE</h1>
+      </div>
+      <ul>
+        <li>
+          <input name="" type="text"  class="textfiled"/>
+        </li>
+        <li><img src="images/search-icon.jpg" alt="search" /></li>
+      </ul>
+    </div>
+    <div class="clearing"></div>
+    <div class="panel">
+      <div class="title"> <span><img src="images/icon1.jpg" alt="icon" /></span>
+        <h1>Morbi sed dignissim</h1>
+      </div>
+      <div class="content">
+        <ul>
+          <li><a href="#">In ut leo eu mi rutrum pellentesque</a></li>
+          <li><a href="#">Maecenas consequat eleifend ligula</a></li>
+          <li><a href="#">Aenean nec ipsum turpis id vestibulum</a></li>
+          <li><a href="#">Proin at mauris at odio vulputate accu</a></li>
+          <li class="-no-border-bottom"><a href="#">Mauris condimentum cursus tortor sit</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="clearing"></div>
+    <div class="panel mar-top30">
+      <div class="title"> <span><img src="images/icon2.jpg" alt="icon" /></span>
+        <h1>Curabitur egestas</h1>
+      </div>
+      <div class="content"> <img src="images/img1.jpg" alt="image" />
+        <div class="recentPost"> Phasellus scelerisque enim eget eros accum san eget ullamco <a href="#">More info +</a> </div>
+      </div>
+      <div class="clearing"></div>
+      <div class="content mar-top30"> <img src="images/img2.jpg" alt="image" />
+        <div class="recentPost"> Donec nec justo eget felis facilisis fermentum. <a href="#">More info +</a> </div>
+      </div>
+      <div class="clearing"></div>
+      <div class="content mar-top30"> <img src="images/img3.jpg" alt="image" />
+        <div class="recentPost"> Aliquam porttitor mauris sit amet orci. Aenean dignissim . <a href="#">More info +</a> </div>
+      </div>
+    </div>
+  </div>
+  <!---side-bar-end--->
+</div>
+<!---page-end--->
+<div class="clearing"></div>
+<div class="primary-footer">
+  <div class="footer-wrap">
+    <div class="footer">
+      <div class="page">
+        <div class="panel mar-right30">
+          <div class="title">
+            <h1>Pellentesque Sitm</h1>
+          </div>
+          <div class="content">
+            <P>Phasellus scelerisque enim eget eros accumsa
+              Quisque euismod est vitae velit lobortis nec vo
+              Nullam non erat et nisl mattis mollis in Maecen
+              as at ipsum vel eros auctor fau</P>
+            <div class="button"><a href="#">MORE INFO</a></div>
+          </div>
+        </div>
+        <div class="panel mar-right30">
+          <div class="title">
+            <h1>Cras ornare tristique elit</h1>
+          </div>
+          <div class="content">
+            <ul>
+              <li><a href="#">Duis quis dolor felis, aliquet blandit lipsum</a></li>
+              <li><a href="#">Phasellus sed erat augue, non porta untun</a></li>
+              <li><a href="#">Nullam non erat et nisl mattis mollis in unoki</a></li>
+              <li class="-no-border-bottom"><a href="#">Maecenas at ipsum vel eros auctor fausino</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="title">
+            <h1>Pellentesque Sitm</h1>
+          </div>
+          <div class="content">
+            <p>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor</p>
+            <div class="button"><a href="#">MORE INFO</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright-wrap">
+    <div class="panel">
+      <div class="content">
+        <P>Copyright (c) websitename. All rights reserved. </P>
+        <p>< <a href="#www.alltemplateneeds.com">www.alltemplateneeds.com</a> > Images From: <a href="www.photorack.net">www.photorack.net</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--primary-footer-end--->
+</body>
+</html>
