@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>MARCO - One Page Bootstrap 3 Theme</title>
+    <title>Graph Dev Prototype</title>
 
     <link href="assets/css/hover_pack.css" rel="stylesheet">
 
@@ -96,56 +96,51 @@
 
         <div class="row mt centered ">
             <div class="col-lg-11 col-lg-offset-1">
-                <h2>Below is a force directed graph of my email account.  The graph was created using DDL's tribe software.</h2>
+                <h2>Below is a force directed graph of my email account that was created with D3.  This graph was created using District Data Lab's tribe software.</h2>
                 <hr>
             </div>
         </div><!-- /row -->
         <div class="row mt left">
             <div class="col-lg-10 col-lg-offset-1">            
-                <h1>The center node is my email account. </h1>  
-                <h2><font size="3">As of now, each value in the drop down menu is associated with a color. Github creates yellowgreen nodes and Georgetown runs green.
-                     In addition a new graph is created each time the button is pressed. This is the start of what could be a dynamic graph. To clear the graph, refresh the browser.</font></h2>            
+           
+                <h2><font size="3"> Below is a graph of my email activity. The center node is my email account.  Each node represents a person I have emailed or who has emailed me.  Use the drop-down menu to highlight a specific domain.  The nodes change color and size to correspond to a specific domain. 
+
+                     </font></h2>            
             </div>
         </div>
       
-        <form>
-
-            Select email domain:
-            <select id="mySelect">
-                <option>Georgetown.edu</option>
-                <option>github.com</option>
-                
-                
-            </select>
-            <br><br>
-            <input type="button" onclick="getOption()" value="Run Graph">
-        </form>
-    
+      
 
         <p id="demo"></p>
-       
+     
+      <select id="mySelect">         
+                <option>georgetown.edu</option>
+                <option>github.com</option>
+                <option>gmail.com</option>
+                <option>districtdatalabs.com</option>
+                  
+</select>
 
-      
-       
+<p>Click the button to run the graph.  The selected domain will return red nodes which are slightly larger. Hover over the node to view the email address. </p>
 
+<button type="button" onclick="setColor()">Run Graph</button>
+
+
+<p id="demo1"></p>
+
+ 
+
+
+<a href="javascript:location.reload(true)">Refresh Page</a> 
         <svg width="960" height="200"></svg>
         <script src="https://d3js.org/d3.v4.min.js"></script>
-        <script>
-    
-            
-            function getOption(){
-                var obj = document.getElementById("mySelect");
-
-                if (obj.options[obj.selectedIndex].text == "psu.edu")
-                    x = 15
-                else
-                    x = 5
-
-                console.log(obj.options[obj.selectedIndex].text)
-            
-
+               
+        <script>             
+        function setColor() {
+             d3.selectAll("svg > *").remove();
+             var x = document.getElementById("mySelect").value;
+                document.getElementById("demo1").innerHTML = ("Featured Nodes = " + x);               
                 var path;
-
                 // SVG element is above.  This will be called below.
                 var svg = d3.select("svg"),
                     width = +svg.attr("width"),
@@ -158,13 +153,16 @@
                     .force("charge", d3.forceManyBody())
                     .force("center", d3.forceCenter(width / 2, height / 2));
                 //Load data from JSON files.
+                   
                 d3.json("l.json", function (error, graph) {
                     if (error) throw error;
                     //Example of how to access data.
-                    function Pauls_function(graph) {
+                  
+        function Pauls_function(graph) {
                         console.log(graph)
-                    }
+                    }                    
                     Pauls_function(graph)
+                                       
                     var link = svg.append("g")
                       .attr("class", "links")
                       .selectAll("line")
@@ -175,40 +173,38 @@
                     d3.select('button').on('click', function () {
                      
                     });
-
                     //Instantiate node using chained methods.
-
-                   
                         var node = svg.append("g")
                            .attr("class", "nodes")
                            .selectAll("circle")
                            .data(graph.nodes)
                            .enter().append("circle")
-
-                            //changes the circle radious.
+                    //changes the circle radius.                         
                            .attr("r", function (d) {
-                               if (d.id == "pw476@georgetown.edu") { return 15 }
+                               if (d.id.includes("pw476@georgetown.edu")) { return 20 }
+                               if(d.id.includes(x)){return 8}
                                else { return 7 };
                            })
                         
-                            .attr("fill", function (d) {
-                                
-                                if (obj.options[obj.selectedIndex].text == "Georgetown.edu") { return "green"}
-                                else { return "yellowgreen" };
+                            .attr("fill", function (d) {                               
+                                if (d.id.includes(x) & d.size==30) { return "orange"}  
+                                if (d.id=="pw476@georgetown.edu"){return "orange"}
+                                if(d.id.includes(x)){return "red"}
+                                else { return "blue" };
                             }
                             )
                              .call(d3.drag()
                                  .on("start", dragstarted)
                                  .on("drag", dragged)
                                  .on("end", dragended));
-
+                         
                         node.append("title")
-                            .text(function (d) { return d.id; });
+                            .text(function (d) {return d.id;});
 
                         node.append("text")
                           .attr("dx", 12)
                           .attr("dy", ".35em")
-                          .text(function (d) { return d.label })
+                          .text(function (d) {return d.label})
 
                         simulation
                             .nodes(graph.nodes)
@@ -229,9 +225,9 @@
                                 .attr("cy", function (d) { return d.y; });
                         }
                     }
-                
+                    
                     );
-
+                                     
                 function dragstarted(d) {
                     if (!d3.event.active) simulation.alphaTarget(0.3).restart();
                     d.fx = d.x;
@@ -248,10 +244,12 @@
                     d.fx = null;
                     d.fy = null;
                 }
-                
-            }
             
+     }  
+        
         </script>
+        
+        
     </div>
 
     <! ========== CALL TO ACTION 1 ==============================================================================================
